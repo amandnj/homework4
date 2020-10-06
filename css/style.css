@@ -116,7 +116,7 @@ header p{
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
-  column-span: all;
+  grid-column: 1 / span last-line;
   max-height: 700px;
   overflow: hidden;
 
