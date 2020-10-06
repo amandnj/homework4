@@ -48,7 +48,7 @@ a:hover {
   /*something else*/
 }
 
-.skip{
+.skip a {
   position: relative;
   margin-top: -40px;
   /*might be some problems later*/
