@@ -45,18 +45,13 @@ a:hover {
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  /*something else*/
-}
-
-.skip a {
-  position: relative;
-  margin-top: -40px;
-  /*might be some problems later*/
+  position: absolute;
+  top: -40px;
 }
 
 .skip a:focus {
-  position: absolute;
-  /*also might be some problems later*/
+  top: 0px;
+
 }
 
 *:focus{
@@ -110,7 +105,7 @@ header p{
 
 .about, .method, .clients, .contact{
   grid-column: 2/ span 1;
-  /*might be some problems later*/
+  
   
 
 }
