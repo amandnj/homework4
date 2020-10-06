@@ -48,13 +48,13 @@ a:hover {
   /*something else*/
 }
 
-.skip {
+.skip{
   position: relative;
   margin-bottom: 40px;
   /*might be some problems later*/
 }
 
-.skip:focus {
+.skip a:focus {
   position: absolute;
   /*also might be some problems later*/
 }
