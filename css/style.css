@@ -50,7 +50,7 @@ a:hover {
 
 .skip{
   position: relative;
-  margin-bottom: 40px;
+  margin-top: -40px;
   /*might be some problems later*/
 }
 
